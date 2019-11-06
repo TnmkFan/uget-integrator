@@ -75,7 +75,7 @@ def extract_file_name(url):
     elif 'www.youtube.com/watch' in url:
         fileName = ''
     else:
-        fileName = basename(urlparse(url).path).replace('%20', ' ')
+        fileName = ''
 
     return fileName
 
